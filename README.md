@@ -15,3 +15,7 @@ rcmy % push to github</br>
 `rcmy % npm install react --save`</br>
 
 Can now access React in `rcmy` JS files with `var React = require('react')`</br>
+
+`rcmy % npm install react-dom --save`</br>
+
+Can access ReactDOM with `var ReactDOM = require('react-dom')`</br>
