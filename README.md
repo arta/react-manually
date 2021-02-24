@@ -43,6 +43,6 @@ Webpack needs to know:
 2. which transformations it should use on that file (configured in loaders)
 3. where the new, transformed file should go (the build, a single file output)
 
-Write and source `index.html` & `index.js`
+Write and link `index.html` & `index.js`
 
 Write a component class `App.js`
