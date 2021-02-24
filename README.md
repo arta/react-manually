@@ -23,9 +23,11 @@ Can now access ReactDOM with `var ReactDOM = require('react-dom')`</br>
 
 `% npm install babel-{core,loader} babel-preset-react --save-dev`
 
-Configure Babel in `.babelrc`
+Create `.babelrc`. Configure Babel.
 
-Reminder, Babel is a JS compiler; it provides backwards browser compatibility;
+Reminder: Babel is a JS compiler; it provides backwards browser compatibility;
 it transforms modern JS into vanilla JS all browsers can interpret & execute.
 
 `% npm install webpack webpack-dev-server html-webpack-plugin --save-dev`
+
+Create and stub out `webpack.config.js`.
