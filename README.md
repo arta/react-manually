@@ -41,3 +41,4 @@ files connected with `require`, `import`, and use of modern JS features such as
 Webpack needs to know:
 1. what JS file(s) it should transform (all requires from the entry point down)
 2. which transformations it should use on that file (configured in loaders)
+3. where the new, transformed file should go (the build, a single file output)
