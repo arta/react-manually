@@ -19,8 +19,13 @@ Can now access React in `rcmy` JS files with `var React = require('react')`</br>
 
 `rcmy % npm install react-dom --save`</br>
 
-Can access ReactDOM with `var ReactDOM = require('react-dom')`</br>
+Can now access ReactDOM with `var ReactDOM = require('react-dom')`</br>
 
 `% npm install babel-{core,loader} babel-preset-react --save-dev`
 
 Configure Babel in `.babelrc`
+
+Reminder, Babel is a JS compiler; it provides backwards browser compatibility;
+it transforms modern JS into vanilla JS all browsers can interpret & execute.
+
+`% npm install webpack webpack-dev-server html-webpack-plugin --save-dev`
