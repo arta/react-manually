@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/arta/react-manually/issues"
   },
-  "homepage": "https://github.com/arta/react-manually#readme"
+  "homepage": "https://github.com/arta/react-manually#readme",
+  "dependencies": {
+    "react": "^17.0.1"
+  }
 }
