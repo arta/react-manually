@@ -49,4 +49,4 @@ Write a component class `App.js`
 
 Stub out HTMLWebpackPlugin configuration - require its constructor function,
 create an instance of it, to host the plugin's configuration object. Configure
-the plugin.
+our instance of the plugin. Add it to our webpack's module's exports.
