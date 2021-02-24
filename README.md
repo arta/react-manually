@@ -59,3 +59,10 @@ Add a `build` script to `package.json`
 above where it belongs), uninstall outdated babel, and re-install & reconfigure
 scoped babel. Btw, babel can also be configured directly in `webpack.config.js`,
 see js-for-dinosaurs.)
+
+Add a `serve` script to `package.json`
+
+Another update (compare to the codecademy article(s)). Rather than downgrading
+webpacks, which actually didn't work, this
+[stackoverflow issue solution](https://stackoverflow.com/a/64205610/247626)
+resolves it.
