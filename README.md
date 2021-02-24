@@ -30,4 +30,13 @@ it transforms modern JS into vanilla JS all browsers can interpret & execute.
 
 `% npm install webpack webpack-dev-server html-webpack-plugin --save-dev`
 
-Create and stub out `webpack.config.js`.
+Create and stub out `webpack.config.js`. Configure webpack.
+
+Reminder: webpack "manages" transformations of server side (Node) & modern JS
+code to a single file (a build) written in a vanilla JS code that (all) browsers
+can interpret & execute. Webpack allows, for example, writing JS in separate
+files connected with `require`, `import`, and use of modern JS features such as
+`async/await`, array iterators, .etc.
+
+Webpack needs to know:
+1. what JS file(s) it should transform (all requires from the entry point down)
