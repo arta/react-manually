@@ -44,3 +44,5 @@ Webpack needs to know:
 3. where the new, transformed file should go (the build, a single file output)
 
 Write and source `index.html` & `index.js`
+
+Write a component class `App.js`
