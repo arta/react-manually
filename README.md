@@ -21,14 +21,16 @@ Can now access React in `rcmy` JS files with `var React = require('react')`</br>
 
 Can now access ReactDOM with `var ReactDOM = require('react-dom')`</br>
 
-`% npm install babel-{core,loader} babel-preset-react --save-dev`
+~~`% npm install babel-{core,loader} babel-preset-react --save-dev`~~</br>
+Nope, per [Flummoxed by IT](http://flummox-engineering.blogspot.com/2018/11/webpack--babel-react-reactjs-pluginpreset-files-are-not-allowed-to-export-objects-only-functions.html), babel packages are now scoped, names start with `@`:</br>
+`% npm install @babel/core @babel/preset-react babel-loader --save-dev`
 
-Create `.babelrc`. Configure Babel.
+Create `.babelrc`. Configure Babel (Flummoxed article gives updated config).
 
 Reminder: Babel is a JS compiler; it provides backwards browser compatibility;
 it transforms modern JS into vanilla JS all browsers can interpret & execute.
 
-`% npm install webpack webpack-dev-server html-webpack-plugin --save-dev`
+`% npm install webpack webpack-cli webpack-dev-server html-webpack-plugin --save-dev`
 
 Create and stub out `webpack.config.js`. Configure webpack.
 
@@ -50,3 +52,10 @@ Write a component class `App.js`
 Stub out HTMLWebpackPlugin configuration - require its constructor function,
 create an instance of it, to host the plugin's configuration object. Configure
 our instance of the plugin. Add it to our webpack's module's exports.
+
+Add a `build` script to `package.json`
+
+(Also, install omitted `webpack-cli` (included it in the original install
+above where it belongs), uninstall outdated babel, and re-install & reconfigure
+scoped babel. Btw, babel can also be configured directly in `webpack.config.js`,
+see js-for-dinosaurs.)
