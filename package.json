@@ -1,0 +1,19 @@
+{
+  "name": "react-manually",
+  "version": "1.0.0",
+  "description": "assembling react app components & dependencis in steps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arta/react-manually.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arta/react-manually/issues"
+  },
+  "homepage": "https://github.com/arta/react-manually#readme"
+}
