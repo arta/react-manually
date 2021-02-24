@@ -1,6 +1,7 @@
 ## React Manually
 
-Steps
+Following
+[Codecademy's React Setup five-page guide](https://www.codecademy.com/articles/react-setup-i):
 
 `~ % mkdir react-manually`</br>
 `~ % cd react-manually` (*)</br>
@@ -21,3 +22,5 @@ Can now access React in `rcmy` JS files with `var React = require('react')`</br>
 Can access ReactDOM with `var ReactDOM = require('react-dom')`</br>
 
 `% npm install babel-{core,loader} babel-preset-react --save-dev`
+
+Configure Babel in `.babelrc`
