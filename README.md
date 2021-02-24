@@ -48,4 +48,5 @@ Write and link `index.html` & `index.js`
 Write a component class `App.js`
 
 Stub out HTMLWebpackPlugin configuration - require its constructor function,
-create an instance of it, to host the plugin's configuration object.
+create an instance of it, to host the plugin's configuration object. Configure
+the plugin.
