@@ -21,16 +21,16 @@ Can now access React in `rcmy` JS files with `var React = require('react')`</br>
 
 Can now access ReactDOM with `var ReactDOM = require('react-dom')`</br>
 
-~~`% npm install babel-{core,loader} babel-preset-react --save-dev`~~</br>
+~~`rcmy % npm install babel-{core,loader} babel-preset-react --save-dev`~~</br>
 Nope, per [Flummoxed by IT](http://flummox-engineering.blogspot.com/2018/11/webpack--babel-react-reactjs-pluginpreset-files-are-not-allowed-to-export-objects-only-functions.html), babel packages are now scoped, names start with `@`:</br>
-`% npm install @babel/core @babel/preset-react babel-loader --save-dev`
+`rcmy % npm install @babel/core @babel/preset-react babel-loader --save-dev`
 
 Create `.babelrc`. Configure Babel (Flummoxed article gives updated config).
 
 Reminder: Babel is a JS compiler; it provides backwards browser compatibility;
 it transforms modern JS into vanilla JS all browsers can interpret & execute.
 
-`% npm install webpack webpack-cli webpack-dev-server html-webpack-plugin --save-dev`
+`rcmy % npm install webpack webpack-cli webpack-dev-server html-webpack-plugin --save-dev`
 
 Create and stub out `webpack.config.js`. Configure webpack.
 
